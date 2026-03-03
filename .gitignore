@@ -1,41 +1,55 @@
-# Prerequisites
-*.d
+.idea/
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+cmake-build-*
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
+.vs/
+# Files built by Visual Studio
+*_i.c
+*_p.c
+*_h.h
 *.ilk
-
-# Debugger Files
+*.meta
+*.obj
+*.iobj
+*.pch
 *.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+*.psess
+*.vsp
+*.vspx
+*.sap
 
-# Fortran module files
-*.mod
-*.smod
+*.coverage
+*.coveragexml
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+*.[Cc]ache
+!?*.[Cc]ache/
 
-# Executables
-*.exe
-*.out
-*.app
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
 
-# debug information files
-*.dwo
+.history/
+
+.localhistory/
