@@ -14,6 +14,13 @@ add_library(core_lib
         core/Types.h
         core/Constants.h
         core/Game.h
+        graph/RoadGraph.h
+        graph/Pathfinder.h
+        graph/GraphAnalyzer.h
+        graph/Pathfinder.cpp
+        graph/RoadGraph.cpp
+        ../tests/test_pathfinder.cpp
+        ../tests/test_graph.cpp
 )
 
 target_include_directories(core_lib
