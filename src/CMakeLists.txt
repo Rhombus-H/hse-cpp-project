@@ -21,6 +21,7 @@ add_library(core_lib
         graph/RoadGraph.cpp
         ../tests/test_pathfinder.cpp
         ../tests/test_graph.cpp
+        core/Exceptions.cpp
 )
 
 target_include_directories(core_lib

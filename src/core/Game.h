@@ -3,6 +3,7 @@
 #include <memory>
 
 #include "TickSystem.h"
+#include "Types.h"
 
 class Game {
     std::unique_ptr<GameMap> map;

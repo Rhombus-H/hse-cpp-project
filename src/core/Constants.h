@@ -3,6 +3,9 @@
 
 #include <utility>
 #include <cstdlib>
+#include "Constants.h"
+#include "Types.h"
+
 
 constexpr size_t DEFAULT_MAP_WIDTH = 20;
 constexpr size_t DEFAULT_MAP_HEIGHT = 15;
