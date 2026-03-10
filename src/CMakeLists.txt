@@ -14,16 +14,17 @@ add_library(core_lib
         ${CMAKE_CURRENT_SOURCE_DIR}/core/Types.h
         ${CMAKE_CURRENT_SOURCE_DIR}/core/Constants.h
         ${CMAKE_CURRENT_SOURCE_DIR}/core/Game.h
-        ${CMAKE_CURRENT_SOURCE_DIR}graph/RoadGraph.h
-        ${CMAKE_CURRENT_SOURCE_DIR}graph/Pathfinder.h
-        ${CMAKE_CURRENT_SOURCE_DIR}graph/GraphAnalyzer.h
-        ${CMAKE_CURRENT_SOURCE_DIR}graph/Pathfinder.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}graph/RoadGraph.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/Exceptions.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/graph/RoadGraph.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/graph/RoadGraph.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/graph/Pathfinder.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/graph/GraphAnalyzer.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/graph/Pathfinder.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/core/Exceptions.cpp
 )
 
-add_library(cars_lib ${CMAKE_CURRENT_SOURCE_DIR}/cars/Car.hpp
-        cars/Car.cpp
+add_library(cars_lib
+        ${CMAKE_CURRENT_SOURCE_DIR}/cars/Car.hpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/cars/Car.cpp
         ${CMAKE_CURRENT_SOURCE_DIR}/cars/CargoCar.hpp
         ${CMAKE_CURRENT_SOURCE_DIR}/cars/CarManager.hpp
         ${CMAKE_CURRENT_SOURCE_DIR}/cars/PassengerCar.hpp

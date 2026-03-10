@@ -2,7 +2,12 @@
 # Google Test уже подключен в корневом CMakeLists.txt
 
 cmake_minimum_required(VERSION 4.0)
+project(TestsLib)
 
+add_executable(tests
+        ${CMAKE_CURRENT_SOURCE_DIR}/test_graph.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/test_pathfinder.cpp
+)
 # Здесь позже будут тесты
 # Например:
 # add_executable(tests test_map.cpp test_pathfinder.cpp etc)
