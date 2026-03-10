@@ -1,1 +1,3 @@
-// just in case, let's test this thing
+int main() {
+    return 0;
+}
